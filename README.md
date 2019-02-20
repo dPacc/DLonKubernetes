@@ -10,9 +10,9 @@ To that end, we will use Google Cloud Platform for every step of this process.
 
 (1) Serve a Deep Learning model as a REST API using Keras, Flask, and Docker
 
-(2) Create your environment with Google Cloud Platform or Run Docker Locally
+(2) Create your environment with Google Cloud Platform to run Docker or Run Docker Locally
 
-(3) Deploy said model with Kubernetes
+(3) Deploy the model with Kubernetes Cluster on GCP
 
 ## Step - 1: Deep Learning Model API
 
@@ -49,7 +49,7 @@ There are 2 ways you can do this
 
 ## Step - 2: Creating an environment on GCP/ Running on local system
 
-### If you are running locally, you can skip these steps and move on to creating `requirements.txt` step
+### If you are running Docker locally, you can skip these steps and move on to creating `requirements.txt` step
 
 - To start a Google Cloud VM, click on the hamburger button on the left side of your screen.
 
@@ -94,6 +94,8 @@ If prompted to accept the GPG key, verify that the fingerprint matches 060A 61C5
 
 `sudo systemctl start docker`
 `sudo docker run hello-world`
+
+#### Creating `requirements.txt` file
 
 Now that Docker is installed, go to you Flask app directory: -
 
