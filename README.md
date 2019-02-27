@@ -134,7 +134,7 @@ Now that Docker is installed, go to you Flask app directory: -
   - Run `sudo docker images` and locate the image id for our keras-app container.
 
 #### Format
-`sudo docker tag <your image id> <your docker hub id>/<app name>``
+`sudo docker tag <your image id> <your docker hub id>/<app name>`
 #### My Exact Command - Make Sure To Use Your Inputs
 `sudo docker tag c511f5e4eb83 dpac9525/dlonkube_web`
 
